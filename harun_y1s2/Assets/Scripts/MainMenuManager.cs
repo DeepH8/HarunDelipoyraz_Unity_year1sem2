@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -11,6 +12,6 @@ public class MainMenuManager : MonoBehaviour
     public void PlayButton()
     {
         Debug.Log("Play button pressed.");
-        
+        SceneManager.LoadScene("PlayScene");
     }
 }
